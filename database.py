@@ -3,11 +3,11 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 db_config = {
-    'user': 'Hamza',
-    'password': 'Hamza.1234',
-    'host': 'todo-api.chik60c2yq93.eu-north-1.rds.amazonaws.com',
+    'user': 'Your Username',
+    'password': 'Your Password',
+    'host': 'Your Host Name',
     'port': 5432,
-    'database': 'todoapi'
+    'database': 'Your Database Name'
 }
 
 
