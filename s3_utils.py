@@ -4,9 +4,9 @@ import io
 from models import Todo
 
 
-AWS_ACCESS_KEY = 'AKIAR6AFGWQZBC4UMQ7T'
-AWS_SECRET_KEY = '+7s7+hua0WWZt8ohnCyy5GkW0WuBaoc8BzuwHUBC'
-BUCKET_NAME = 'todo-api-task12'
+AWS_ACCESS_KEY = 'Your AWS IAM Access Key'
+AWS_SECRET_KEY = 'Your AWS IAM Secret Key'
+BUCKET_NAME = 'Your Bucket Name'
 
 def upload_csv_to_s3(todos: list[Todo]) -> str:
     s3 = boto3.client("s3", aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY)
